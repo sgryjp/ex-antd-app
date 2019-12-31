@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+/* Global */
+a:focus, a:hover {
+  color: #f00 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header */
+.header .brand {
+  float: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header .brand img {
+  height: 48px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header .brand span {
+  font-family: monospace;
+  color: #fff;
+}
+
+.header .menu li {
+  display: inline-block;
+}
+
+.header .menu li a {
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header .menu li a:link,
+.header .menu li a:visited,
+.header .menu li a:active {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.header .menu li a.active {
+  background: #1890ff;
+}
+
+/* Content */
+.content {
+  padding: 0 24px;
+  min-height: 280px;
+}
+
+.content h2:first-child {
+  margin-top: 0;
+}
+
+.content h2 {
+  margin-top: 32px;
+}
+
+.content div.controls {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.content span.warning {
+  color: orange;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content span.warning::before {
+  content: " ⚠️";
 }
