@@ -20,7 +20,7 @@ const {Header, Footer, Content} = Layout;
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ex-antd-app">
       <Layout>
         <Header className="header">
           <Link to="/">
