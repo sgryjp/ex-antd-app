@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ex-antd-app/static/css/main.ae5053e2.chunk.css",
+    "main.js": "/ex-antd-app/static/js/main.5782e86c.chunk.js",
+    "main.js.map": "/ex-antd-app/static/js/main.5782e86c.chunk.js.map",
+    "runtime-main.js": "/ex-antd-app/static/js/runtime-main.e1cb09ca.js",
+    "runtime-main.js.map": "/ex-antd-app/static/js/runtime-main.e1cb09ca.js.map",
+    "static/css/2.c7b90ac4.chunk.css": "/ex-antd-app/static/css/2.c7b90ac4.chunk.css",
+    "static/js/2.e8622c71.chunk.js": "/ex-antd-app/static/js/2.e8622c71.chunk.js",
+    "static/js/2.e8622c71.chunk.js.map": "/ex-antd-app/static/js/2.e8622c71.chunk.js.map",
+    "index.html": "/ex-antd-app/index.html",
+    "precache-manifest.4fc6bfdd71b9f95a4e711ad1fa64712b.js": "/ex-antd-app/precache-manifest.4fc6bfdd71b9f95a4e711ad1fa64712b.js",
+    "service-worker.js": "/ex-antd-app/service-worker.js",
+    "static/css/2.c7b90ac4.chunk.css.map": "/ex-antd-app/static/css/2.c7b90ac4.chunk.css.map",
+    "static/css/main.ae5053e2.chunk.css.map": "/ex-antd-app/static/css/main.ae5053e2.chunk.css.map",
+    "static/js/2.e8622c71.chunk.js.LICENSE": "/ex-antd-app/static/js/2.e8622c71.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1cb09ca.js",
+    "static/css/2.c7b90ac4.chunk.css",
+    "static/js/2.e8622c71.chunk.js",
+    "static/css/main.ae5053e2.chunk.css",
+    "static/js/main.5782e86c.chunk.js"
+  ]
+}
