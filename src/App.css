@@ -6,14 +6,9 @@ a:focus, a:hover {
 /* Header */
 .header .brand {
   float: left;
-}
-
-.header .brand img {
-  height: 48px;
-}
-
-.header .brand span {
-  font-family: monospace;
+  background: no-repeat left url("/logo-32.png");
+  padding-left: 40px; /* 32 + 8 */
+  padding-right: 8px;
   color: #fff;
 }
 

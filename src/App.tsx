@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter,
+  HashRouter,
   Link,
   NavLink,
   Route,
@@ -12,7 +12,6 @@ import {
 import App1 from './app1/App';
 import App2 from './app2/App';
 
-import logo from './logo.svg';
 import 'antd/dist/antd.css';
 import './App.css';
 
@@ -20,14 +19,11 @@ const {Header, Footer, Content} = Layout;
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter basename="/ex-antd-app">
+    <HashRouter basename="/ex-antd-app">
       <Layout>
         <Header className="header">
           <Link to="/">
-            <div className="brand">
-              <img src={logo} alt="logo" />
-              <span className="brand">ex-antd-app</span>
-            </div>
+            <div className="brand">ex-antd-app</div>
           </Link>
           <ul className="menu">
             <li role="menu"><NavLink to="/app1">app1</NavLink></li>
@@ -44,7 +40,7 @@ const App: React.FC = () => {
           &copy; 2019 Suguru Yamamoto
         </Footer>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
