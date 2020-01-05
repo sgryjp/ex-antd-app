@@ -1,12 +1,15 @@
 /* Global */
-a:focus, a:hover {
-  color: #f00 !important;
+a:focus,
+a:hover,
+.header .brand:focus,
+.header .brand:hover {
+  color: red !important;
 }
 
 /* Header */
 .header .brand {
   float: left;
-  background: no-repeat left url("/logo-32.png");
+  background: no-repeat left url("./logo-32.png");
   padding-left: 40px; /* 32 + 8 */
   padding-right: 8px;
   color: #fff;

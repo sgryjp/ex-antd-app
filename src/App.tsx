@@ -22,9 +22,7 @@ const App: React.FC = () => {
     <HashRouter basename="/ex-antd-app">
       <Layout>
         <Header className="header">
-          <Link to="/">
-            <div className="brand">ex-antd-app</div>
-          </Link>
+          <Link to="/" className="brand">ex-antd-app</Link>
           <ul className="menu">
             <li role="menu"><NavLink to="/app1">app1</NavLink></li>
             <li role="menu"><NavLink to="/app2">app2</NavLink></li>
